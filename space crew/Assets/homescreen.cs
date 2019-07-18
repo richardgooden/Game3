@@ -92,6 +92,11 @@ public class homescreen : MonoBehaviour
         {
             contextmenu.SetActive(false);
         }
+        //M = open map
+
+        //click on map node = switch to random node
+
+        //
     }
 
 

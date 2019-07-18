@@ -65,7 +65,6 @@
      <Compile Include="Assets\AHProxy\PlanetShader\DemoScene\Standard Assets\Effects\Common\Editor\MinDrawer.cs" />
      <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Editor\CustomMaterialEditor.cs" />
      <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Editor\Shader_softrim_dissolve.cs" />
-     <Compile Include="Assets\StarSparrow\Readme\Readme Files\Scripts\Editor\ReadmeEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/richa/Downloads/Game3/space crew/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>

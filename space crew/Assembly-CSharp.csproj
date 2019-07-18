@@ -80,7 +80,6 @@
      <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
      <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
-     <Compile Include="Assets\StarSparrow\Readme\Readme Files\Scripts\Readme.cs" />
      <Compile Include="Assets\build.cs" />
      <Compile Include="Assets\camera.cs" />
      <Compile Include="Assets\field.cs" />
