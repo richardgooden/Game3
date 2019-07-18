@@ -1,0 +1,2 @@
+C:\Users\Richard\Documents\GitHub\Game3\space crew\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Richard\Documents\GitHub\Game3\space crew\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
