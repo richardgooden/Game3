@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: fdfffdeb81eca38448ed24a6d334a4cb
+    path: Assets/Scenes/Space Crew.unity
+    guid: 8b79a7813aafa894db00949bf9f123a5
   m_configObjects: {}

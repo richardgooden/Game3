@@ -87,6 +87,7 @@
      <Compile Include="Assets\gamescript.cs" />
      <Compile Include="Assets\homescreen.cs" />
      <Compile Include="Assets\main.cs" />
+     <Compile Include="Assets\mapgen.cs" />
      <Compile Include="Assets\missile.cs" />
      <Compile Include="Assets\pickup.cs" />
      <Compile Include="Assets\player.cs" />
