@@ -5,12 +5,18 @@ using UnityEngine.UI;
 
 public class homescreen : MonoBehaviour
 {
-    GameObject creditsmenu, mainmenu, playmenu, loadmenu, homemenu, hud, pausemenu, statusmenu, contextmenu;
-    Button play, load, credits, quit, backc, backp, backl, newg, save1, save2, save3, save4, resume, save, quitp;  
+    GameObject creditsmenu, mainmenu, playmenu, loadmenu, homemenu, hud, pausemenu, statusmenu, contextmenu, mapscreen, 
+        builder, nodeempty, nodeplanet, nodeasteroid, nodeintruders, nodeenemy, nodefriendly;
+    Button play, load, credits, quit, backc, backp, backl, newg, save1, save2, save3, save4, resume, save, quitp, map, backmap;  
     // Start is called before the first frame update
     void Start()
     {
-        
+        map = GameObject.Find("map").GetComponent<Button>();
+        map.onClick.AddListener(openmap);
+
+        backmap = GameObject.Find("backmap").GetComponent<Button>();
+        backmap.onClick.AddListener(closemap);
+
         play = GameObject.Find("Play").GetComponent<Button>();
         play.onClick.AddListener(mainplay);
 
@@ -59,7 +65,8 @@ public class homescreen : MonoBehaviour
         hud = GameObject.Find("hud");
         pausemenu = GameObject.Find("pausemenu");
         statusmenu = GameObject.Find("statusmenu");
-
+        mapscreen = GameObject.Find("mapscreen");
+        builder = GameObject.Find("builder");
         mainmenu = GameObject.Find("mainmenu");
         creditsmenu = GameObject.Find("creditsmenu");
         playmenu = GameObject.Find("playmenu");
@@ -99,7 +106,16 @@ public class homescreen : MonoBehaviour
         //
     }
 
-
+    void openmap()
+    {
+        mapscreen.SetActive(true);
+        hud.SetActive(false);
+    }
+    void closemap()
+    {
+        mapscreen.SetActive(false);
+        hud.SetActive(true);
+    }
     void mainplay() {
         mainmenu.SetActive(false);
         playmenu.SetActive(true);
@@ -131,7 +147,7 @@ public class homescreen : MonoBehaviour
     void playnewg()
     {
         homemenu.SetActive(false);
-        hud.SetActive(true);
+        builder.SetActive(true);
     }  
     void loadsave1()
     {
