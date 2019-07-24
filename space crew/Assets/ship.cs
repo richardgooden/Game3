@@ -8,11 +8,11 @@ public class ship : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawn = this.transform.GetChild(0).gameObject;
-        cargobay = Instantiate((GameObject)Resources.Load("Prefabs/cargobay"));
-        cargobay.transform.parent = this.transform;
-        cockpit = Instantiate((GameObject)Resources.Load("Prefabs/cockpit"));
-        cockpit.transform.parent = this.transform;
+        //spawn = this.transform.GetChild(0).gameObject;
+        //cargobay = Instantiate((GameObject)Resources.Load("Prefabs/cargobay"));
+        //cargobay.transform.parent = this.transform;
+        // cockpit = Instantiate((GameObject)Resources.Load("Prefabs/cockpit"));
+        //cockpit.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class ship : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate((GameObject)Resources.Load("Prefabs/missile"), spawn.transform.position, spawn.transform.rotation);
+           // Instantiate((GameObject)Resources.Load("Prefabs/missile"), spawn.transform.position, spawn.transform.rotation);
             
         }
     }
